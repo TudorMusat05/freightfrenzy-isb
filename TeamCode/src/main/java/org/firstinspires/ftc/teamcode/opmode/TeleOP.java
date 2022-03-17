@@ -62,7 +62,7 @@ public class TeleOP extends OpMode {
             switch (driveMode) {
                 // TODO: tune this to liking
                 case FAST:
-                    robot.drive.setMotorPowersFromGamepad(gamepad1, 0.6);
+                    robot.drive.setMotorPowersFromGamepad(gamepad1, 0.8);
                     break;
                 case SLOW:
                     robot.drive.setMotorPowersFromGamepad(gamepad1, 0.55);
@@ -81,7 +81,7 @@ public class TeleOP extends OpMode {
         // -----------------------------------------------------------------------------------------
 
         // Driver 2 controls -----------------------------------------------------------------------
-        if (gamepad1.right_trigger>0.1){
+        if (gamepad1.right_trigger > 0.1){
             robot.outtake.outtakeMotor.setPower(gamepad1.right_trigger * Outtake.OUTTAKE_UP_POWER_MULTIPLIER);
 //            robot.outtake.outtakeState = Outtake.OuttakeState.UP;
         }

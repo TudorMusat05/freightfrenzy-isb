@@ -9,8 +9,8 @@ import com.qualcomm.robotcore.hardware.HardwareMap;
 public class Carusel implements Sub {
 
     public static double CAROUSEL_IDLE_POWER = 0;
-    public static double CAROUSEL_SCORING_POWER = 0.4;
-    public static double CAROUSEL_SCORING_POWER_LEFT = -0.4;
+    public static double CAROUSEL_SCORING_POWER = 0.75;
+    public static double CAROUSEL_SCORING_POWER_LEFT = -0.75;
 
     public enum CarouselState {
         IDLE,

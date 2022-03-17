@@ -20,8 +20,7 @@ public class Outtake implements Sub {
 
     public enum  ClawState {
         COLLECTING,
-        CLOSED,
-        SCORING
+        CLOSED
     }
 
     public enum OuttakeState{
